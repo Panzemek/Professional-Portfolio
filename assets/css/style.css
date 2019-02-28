@@ -1,0 +1,306 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    color: #777777;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url("../images/white-waves.png");
+}
+
+.headSection{
+    overflow: auto;
+    background: white;
+}
+
+#headerContent {
+    width: 980px;
+    margin: auto;
+    overflow: auto;
+}
+
+header {
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    background: #4aaaa5;
+    color: #ffffff;
+    float: left;
+    padding: 25px;
+    font-size: 30px;
+}
+
+.headerLinks {
+    margin-top: 32px;
+    margin-bottom: 32px;
+}
+
+.indexTab, .portfolioTab, .contactTab {
+    font-size: 16px;
+    background: #ffffff;
+    padding-left: 24px;
+    padding-right: 24px;
+}
+
+.headerLinks {
+    float: right;
+}
+
+.indexTab, .portfolioTab {
+    padding-right: 32px;
+ }
+
+.indexTab, .portfolioTab {
+    border-right: lightgrey 1px solid;
+}
+
+hr {
+    margin: 0;
+    padding: 0;
+    border-color: #cccccc;
+}
+
+.contentContainer {
+    margin: auto;
+    position: relative;
+    overflow: auto;
+    width: 980px;
+    height: auto;
+    padding: 40px;
+    background: white;
+    margin-top: 40px;
+    border: #dddddd 1px solid;
+}
+
+.contentHeader {
+    font-size: 50px;
+    float: left;
+    color: teal;
+    margin-bottom: 10px;
+}
+
+#line2 {
+    clear: both;
+}
+
+#myPicture {
+    float: left;
+    height: 200px;
+    width: 200px;
+    margin-right: 10px;
+}
+
+.aboutText {
+    font-size: 18px;
+    line-height: 25px;
+}
+
+footer {
+    border-top: #4aaaa5 8px solid;
+    padding-top: 40px;
+    background: #666666;
+    text-align: center;
+    color: #ffffff;   
+}
+
+h3 {
+    font-size: 150%;
+}
+
+.smallTextBox {
+    margin-top: 3px;
+    width: 100%;
+    height: 34px;
+}
+
+.largeTextBox {
+    margin-top: 3px;
+    width: 100%;
+    height: 200px;
+}
+
+h5 {
+    float: left;
+    margin-top: 6px;
+    padding: 10px;
+    font-size: 200%;
+    background: #4aaaa5;
+}
+
+.projectElementLeft, .projectElementCenter, .projectElementRight {
+    position: relative;
+    width: 31.66%;
+    left: 0;
+    float: left;
+    overflow: auto;
+    margin-block-end: 20px;
+}
+
+.projectElementLeft, .projectElementCenter {
+    margin-right: 20px;
+}
+
+.blankProject {
+    display: none;
+}
+
+.placeholder {
+    height: auto;
+    width: 100%;
+}
+
+#project1 {
+    top: 20%;
+}
+
+h4 {
+    position: absolute;
+    top: 62%;
+    background: #4aaaa5;
+    color: #ffffff;
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+}
+
+@media only screen and (max-width:980px) {
+
+    /* Header programming */
+
+    #headerContent {
+        width: auto;
+    }
+
+    header {
+        margin-left: 20px;
+    }
+
+    /* All content containers programming */
+
+    .contentContainer {
+        margin: 0;
+        margin-top: 20px;
+        margin-left: 20px;
+        width: 80%;
+        max-width: 980px;
+        height: auto;
+    }
+
+    /* About tab programming (None additional needed at this size) */
+
+    /* Portfolio tab programming */
+
+    .projectElementLeft, .projectElementCenter, .projectElementRight {
+        margin: 0;
+        padding: 0;
+        width: 49%;
+    }
+
+    h4 {
+        width: 100%;
+    }
+
+    .placeholder {
+        height: auto;
+        width: 100%;
+        margin-bottom: 2%;
+    }
+    
+    #project1, #project3 {
+        margin-right: 2%;
+    }
+
+    /* Contact tab programming (None additional needed at this size)*/
+}
+
+@media only screen and (max-width:768px) {
+    /* Header programming */
+    
+    #headerContent {
+        width: auto;
+    }
+
+    header {
+        margin: 0;
+    }
+    
+    /* All content containers programming */
+    
+    .contentContainer {
+        margin-left: 2%;
+        margin-right: 2%;
+        width: 95%;
+        height: auto;
+    }
+    
+    /* About tab programming (None additional needed at this size) */
+    
+    /* Portfolio tab programming */
+    
+    .projectElementLeft, .projectElementCenter, .projectElementRight {
+        margin: 0;
+        padding: 0;
+        width: 49%;
+    }
+    
+    h4 {
+        width: 100%;
+    }
+    
+    .placeholder {
+        height: auto;
+        width: 100%;
+        margin-bottom: 2%;
+    }
+    
+    #project1, #project3 {
+        margin-right: 2%;
+    }
+    
+    /* Contact tab programming (None additional needed at this size)*/
+}
+ 
+@media only screen and (max-width:640px) {
+
+    /* Header programming */
+
+    .headSection {
+        text-align: center;
+        position: static;
+    }
+   
+    header {
+        width: 100%;
+        margin-bottom: 24px;
+    }
+
+    .headerLinks {
+        margin-bottom: 24px;
+        position: relative;
+        float: none;
+    }
+
+
+
+    /* About tab programming (None additional needed at this size) */
+
+    #myPicture {
+        float: none;
+        height: auto;
+        width: 100%;
+        margin-right: 0;
+    }
+    
+    /* Portfolio tab programming */
+
+    .projectElementLeft, .projectElementCenter, .projectElementRight {
+        margin: 0;
+        margin-bottom: 10px;
+        padding: 0;
+        width: 100%;
+    }
+
+    /* Contact tab programming (None additional needed at this size)*/
+
+}
+
