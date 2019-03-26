@@ -1,4 +1,4 @@
-# Responsive-Portfolio
+# Professional-Portfolio
 This project is to display a basic set of information for my projects and coding experience, in a viewport size-sensitive manner.
 
 ##About Me
