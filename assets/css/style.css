@@ -1,5 +1,17 @@
 * {
     box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+
+html, body {
+    height: 100%;
+}
+
+#container {
+    height: 100%;
+    border-collapse: collapse;
 }
 
 body {
@@ -100,7 +112,8 @@ footer {
     padding-top: 40px;
     background: #666666;
     text-align: center;
-    color: #ffffff;   
+    color: #ffffff;
+    width: 100%;
 }
 
 h3 {
@@ -181,7 +194,6 @@ h4 {
         margin: 0;
         margin-top: 20px;
         margin-left: 20px;
-        width: 80%;
         max-width: 980px;
         height: auto;
     }
